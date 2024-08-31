@@ -1,0 +1,128 @@
+body {
+    font-family: Copperplate;
+    line-height: 1.5;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/fondospace.jpg'); /* O utiliza una URL directa, como: url('https://example.com/galaxy.jpg'); */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* No repetir la imagen de fondo */
+    background-attachment: fixed; /* Hace que el fondo permanezca fijo al hacer scroll */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#intro, #teorias, #galeria, #tabla, #estrellas, #contacto, #video{
+    background-color: rgba(0, 0, 0, 0.57); /* Fondo blanco con 80% de transparencia */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    color: #ffffff; /* Texto negro para mejor visibilidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar los cuadros */
+}
+
+.doble {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+#contacto  {
+    width: 40%;
+}
+
+#video {flex-grow: 1;}
+
+iframe {
+    border: 1px solid #ccc; /* Adjust the border style, width, and color as needed */
+    width:100%;
+    height:560px;
+  }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+#tabla table {
+    width: 77%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#tabla th, #tabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tabla th {
+    background-color: #0000009d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form input:focus, form textarea:focus {
+    border: 5px solid #09297bea;
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+    cursor:pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.galeria-imagenes {
+    display: flex;
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+    margin-top: 20px; /* Espacio entre el título y las imágenes */
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
